@@ -11,33 +11,34 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    buildToolsVersion '27.0.2'
 }
 
 dependencies {
     compile 'com.android.support:palette-v7:' + project.supportVersion
     compile 'com.android.support:support-v4:' + project.supportVersion
-    compile 'com.github.bumptech.glide:glide:4.0.0'
+    compile 'com.github.bumptech.glide:glide:4.4.0'
 }
 
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'GlidePalette'
-    orgName = 'florent37'
+    orgName = 'florent37|TangKhun'
 
-    publishedGroupId = 'com.github.florent37'
+    publishedGroupId = 'com.github.TangKhun'
     libraryName = 'GlidePalette'
-    artifact = 'glidepalette'
+    artifact = 'florent37|TangKhun'
 
     libraryDescription = ''
 
-    siteUrl = 'https://github.com/florent37/GlidePalette'
-    gitUrl = 'https://github.com/florent37/GlidePalette.git'
+    siteUrl = 'https://github.com/TangKhun/GlidePalette'
+    gitUrl = 'https://github.com/TangKhun/GlidePalette.git'
 
     libraryVersion = rootProject.ext.libraryVersion
 
-    developerId = 'florent37'
-    developerName = 'florent37'
-    developerEmail = 'champigny.florent@gmail.com'
+    developerId = 'florent37|tangkhun'
+    developerName = 'florent37|tangkhun'
+    developerEmail = 'champigny.florent@gmail.com||tangkhun@163.comm'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
